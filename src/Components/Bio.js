@@ -47,7 +47,11 @@ export default function Bio() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <img className={classes.backgroundImage} src={Background} />
+      <img
+        className={classes.backgroundImage}
+        alt="background image"
+        src={Background}
+      />
       <Typography variant="button" display="block" gutterBottom>
         {' '}
         <Badge

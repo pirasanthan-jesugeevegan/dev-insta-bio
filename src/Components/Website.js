@@ -71,7 +71,11 @@ export default function Website() {
   return (
     <div className={classes.root}>
       <span className={classes.title}>Hello</span>
-      <img src={Profile} className={classes.profile} />{' '}
+      <img
+        src={Profile}
+        className={classes.profile}
+        alt="Profile imange"
+      />{' '}
       <span className={classes.subTitle}>I’m Pirasanth</span>
       <p className={classes.description}>
         I love to; program, write automation scripts, travel, and lift heavy

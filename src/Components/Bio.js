@@ -49,7 +49,7 @@ export default function Bio() {
     <div className={classes.root}>
       <img
         className={classes.backgroundImage}
-        alt="background image"
+        alt="background"
         src={Background}
       />
       <Typography variant="button" display="block" gutterBottom>
